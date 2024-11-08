@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Location Map</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="product-container">
+      <div class="product-area">
+        <img src="product-image.jpg" alt="Product Image" id="product-image" />
+        <h1 id="product-name">Smart Shows</h1>
+        <p id="product-description">
+          This is a detailed description of the product. It provides more
+          information on the features and benefits of the product.
+        </p>
+        <p id="product-price">$99.99</p>
+        <button id="buy-button">Buy Now</button>
+      </div>
+    </div>
+
+    <!-- Map Container -->
+    <div id="map" style="display: none"></div>
+
+    <!-- Popup -->
+    <div id="distance-popup" class="popup hidden">
+      <p>You are more than 100 km away from our store location!</p>
+      <button onclick="closePopup()">Close</button>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- Google Maps API -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+      async
+      defer
+    ></script>
+  </body>
+</html>

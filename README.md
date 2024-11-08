@@ -4,11 +4,10 @@
 
 This project is a **location-based product purchasing system** that calculates the distance between the user's current location and a store. If the user is more than 100 km away from the store, a popup will appear to alert them.
 
-The system uses **Google Maps API** to track the user's location and calculate the distance. It helps users know if they are eligible to purchase based on their proximity to the store location.
-
-![Project Screenshot](https://i.ibb.co/com/g7jkK1n/Screenshot-32.png)
+![Project Screenshot](https://i.ibb.co/g7jkK1n/Screenshot-32.png)
 
 ---
+
 
 ## Features
 
